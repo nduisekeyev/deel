@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+# Deel Autocomplete
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+User Search App is a web application that allows users to search for specific items or users using a reusable Autocomplete component.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Prepare Build](#prepare-build)
+- [Contributors](#contributors)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Prerequisites
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Before you begin, ensure you have met the following requirements:
 
-### `npm test`
+- [Node.js](https://nodejs.org/) installed on your local machine.
+- [npm](https://www.npmjs.com/) (Node Package Manager) or [yarn](https://yarnpkg.com/) installed globally on your machine.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clone the repository
+   ```sh
+   git clone https://github.com/nduisekeyev/deel.git
+   ```
+2. Install dependencies
+   `npm i`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the app
+   `npm run start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Prepare Build
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Build the app
+   `npm run build`
+2. The build artifacts will be stored in the build directory. The app is now ready for deployment.
 
-### `npm run eject`
+## Contributors
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Nur Duisekeyev
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Licensed under the MIT License, Copyright © 2024 Deel
