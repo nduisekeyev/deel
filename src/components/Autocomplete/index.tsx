@@ -65,7 +65,6 @@ const Autocomplete = <T extends { id: number; name: string }>(
 
   const handleInputBlur = () => {
     setInputFocused(false);
-    // setSuggestions(initialSuggestions);
   };
 
   const handleSelect = (item: T) => {
@@ -115,7 +114,6 @@ const Autocomplete = <T extends { id: number; name: string }>(
           )}
           onClick={handleSelect}
           onHover={onHover}
-          onClear={handleOnClear}
         />
       )}
     </div>

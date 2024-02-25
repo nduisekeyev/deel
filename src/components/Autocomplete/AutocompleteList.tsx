@@ -5,14 +5,12 @@ type AutocompleteListProps<T> = {
   renderItem: (item: T) => React.ReactNode;
   onHover?: (item: T) => void;
   onClick?: (item: T) => void;
-  onClear?: Function;
 };
 
 const AutocompleteList = <T extends { id: number; name: string }>(
   props: AutocompleteListProps<T>
 ): React.ReactElement => {
-  // eslint-disable-next-line
-  const { options, renderItem, onHover, onClick, onClear } = props;
+  const { options, renderItem, onHover, onClick } = props;
 
   const [hoverItemId, setHoverItemId] = useState<number | null>(null);
 
