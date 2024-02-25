@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.autocomplete-container {
+  position: relative;
+  width: 22rem;
+  padding: 0 1rem;
+  margin: auto;
+}
+
+.autocomplete-close-icon {
+  position: absolute;
+  cursor: pointer;
+  top: 0.45rem;
+  right: 0;
+}
+
+input {
+  font-size: inherit;
+  height: 2rem;
+  width: inherit;
+  padding: 0 1rem;
+  overflow-wrap: break-word;
+  border: 1px solid gray;
+  border-radius: 5px;
+  word-wrap: break-word;
+  background-color: transparent;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+/* Base Styles */
+ul {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  width: 24rem;
+  margin: auto;
+  border: 1px solid gray;
+}
+
+/* Selected Item */
+ul > li {
+  text-align: left;
+  overflow: hidden;
+  padding: 6px 16px;
+  box-sizing: border-box;
+}
+
+.autocomplete-selected {
+  background-color: #dadada;
+  cursor: pointer;
+}
